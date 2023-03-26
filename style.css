@@ -1,1 +1,62 @@
-ECHO is on.
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-one: hsl(158, 36%, 37%);
+    --primary-two: hsl(30, 38%, 92%);
+    --neutral-one: hsl(212, 21%, 14%);
+    --neutral-two: hsl(228, 12%, 48%);
+    --neutral-three: hsl(0, 0%, 100%);
+}
+
+#page-container {
+    background-color: var(--primary-two);
+    height: 100vh;
+    width: 100vw;
+    padding: 1rem;
+}
+
+#item-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+#item-image {
+    background-image: url("images/image-product-mobile.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 33%;
+    width: 100%;
+}
+
+#item-detail {
+    background-color: var(--neutral-three);
+}
+
+.item-category {
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    font-family: 'Montserrat', sans-serif;    
+}
+
+.item-name {
+    font-family: 'Fraunces', serif;
+}
+
+.item-description {
+    font-family: 'Montserrat', sans-serif;    
+
+}
+
+.pricing-div {
+    font-family: 'Fraunces', serif;
+    display: flex;
+    justify-content: space-around;
+
+
+}
