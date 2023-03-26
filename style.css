@@ -26,8 +26,11 @@ p {
 #item-container {
     display: flex;
     flex-direction: column;
+    align-items: center;
     width: 100%;
     height: 100%;
+    background-color: var(--neutral-three);
+
 }
 
 #item-image {
@@ -39,7 +42,6 @@ p {
 }
 
 #item-detail {
-    background-color: var(--neutral-three);
     padding: 1rem;
 }
 
@@ -75,4 +77,14 @@ p {
 
 .previous-price {
     text-decoration:line-through;
+}
+
+button {
+    border: 0;
+    background-color: var(--primary-one);
+    width: 50%;
+    padding: 1rem;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--neutral-three)
 }
