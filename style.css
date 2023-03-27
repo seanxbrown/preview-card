@@ -93,3 +93,9 @@ button {
     font-family: 'Montserrat', sans-serif;
     color: var(--neutral-three)
 }
+
+button:hover {
+    background-color: hsl(158, 39%, 21%);
+    cursor: pointer;
+
+}
