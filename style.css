@@ -12,8 +12,12 @@
     --neutral-three: hsl(0, 0%, 100%);
 }
 
-#page-container {
+body {
     background-color: var(--primary-two);
+
+}
+
+#page-container {
     height: 100vh;
     width: 100vw;
     padding: 1rem;
@@ -33,14 +37,6 @@ p {
     border-radius: 10px;
     overflow: hidden;
 
-}
-
-#item-image {
-    background-image: url("images/image-product-mobile.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 33%;
-    width: 100%;
 }
 
 #item-detail {
