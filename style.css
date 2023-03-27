@@ -81,6 +81,7 @@ p {
 
 .previous-price {
     text-decoration:line-through;
+    color: var(--neutral-two)
 }
 
 button {
