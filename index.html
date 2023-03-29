@@ -17,7 +17,10 @@
         <div id="page-container">
             <div id="item-container">
                 <div id="item-image">
-                    <img src="images/image-product-mobile.jpg" alt="product image" />
+                    <picture>
+                        <source media="(min-width: 1440px)" srcset="images/image-product-desktop.jpg" />
+                        <img src="images/image-product-mobile.jpg" alt="product image" />
+                    </picture>
                 </div>
                 <div id="item-detail">
                     <p class="item-category">Perfume</p>

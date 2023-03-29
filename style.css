@@ -58,6 +58,11 @@ p {
   
 }
 
+#item-image img {
+    height: 100%;
+    width: 100%;
+}
+
 .pricing-div {
     font-family: 'Fraunces', serif;
     display: flex;
