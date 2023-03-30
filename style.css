@@ -31,7 +31,7 @@ p {
     background-color: var(--neutral-three);
     border-radius: 10px;
     overflow: hidden;
-    max-width: 500px;
+    max-width: 575px;
 }
 
 #item-detail {
