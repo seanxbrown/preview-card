@@ -81,6 +81,7 @@ p {
     text-decoration:line-through;
     color: var(--neutral-two);
     font-size: 0.8rem;
+    margin-left: 1rem;
 }
 
 button {
