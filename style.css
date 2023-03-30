@@ -28,11 +28,10 @@ p {
 #item-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
     background-color: var(--neutral-three);
     border-radius: 10px;
     overflow: hidden;
-    max-width: 600px;
+    max-width: 500px;
 }
 
 #item-detail {
@@ -41,10 +40,11 @@ p {
 
 .item-category {
     text-transform: uppercase;
-    letter-spacing: 0.5rem;
+    letter-spacing: 0.2rem;
     font-family: 'Montserrat', sans-serif;
     color: var(--neutral-two);
     margin-top: 1rem; 
+    font-size: 0.75rem
 }
 
 .item-name {
@@ -67,7 +67,7 @@ p {
 .pricing-div {
     font-family: 'Fraunces', serif;
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     margin-top: 2rem;
 }
 
@@ -78,7 +78,8 @@ p {
 
 .previous-price {
     text-decoration:line-through;
-    color: var(--neutral-two)
+    color: var(--neutral-two);
+    font-size: 0.8rem;
 }
 
 button {
